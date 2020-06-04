@@ -17,7 +17,7 @@ There are performance hiccups within Unity, related to the transformation of the
 * We would probably refine the Python layer: can use inter-process communication which should be much faster. Taking webcam processing to Python. 
 * Different direction: Need to also look into taking image processing inside Unity (both face detection and emotion recognition), which would require building native libraries for OpenCV and Keras for C# and Unity.
 
-## Technical details
+## Technical details and how to run
 
 ### Python
 
