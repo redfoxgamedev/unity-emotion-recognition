@@ -13,8 +13,9 @@ Python does all the “AI” work in this case with Unity just supplying the web
 There are performance hiccups within Unity, related to the transformation of the webcam image and sending it to the server. Also, the entire process takes a bit of time since this doesn’t happen on a single thread within Unity but rather asynchronously.
 
 ## Next steps
-- We would probably refine the Python layer: can use inter-process communication which should be much faster. Taking webcam processing to Python. 
-- Different direction: Need to also look into taking image processing inside Unity (both face detection and emotion recognition), which would require building native libraries for OpenCV and Keras for C# and Unity.
+
+* We would probably refine the Python layer: can use inter-process communication which should be much faster. Taking webcam processing to Python. 
+* Different direction: Need to also look into taking image processing inside Unity (both face detection and emotion recognition), which would require building native libraries for OpenCV and Keras for C# and Unity.
 
 ## Technical details
 
@@ -22,13 +23,13 @@ There are performance hiccups within Unity, related to the transformation of the
 
 #### Requirements
 
-* Used Python 3.7.7 and pip3 v. 20.1.1
-* Tensorflow v. 2.1.1. Install via pip3 install tensorflow. Needed for running pre-trained models.
-* Additional libraries needed to run the server (all can be installed by pip3 install NAME_OF_LIBRARY)
-    * tensorflow (training models and running pre-trained models)
-    * opencv-python (computer vision for detecting faces)
-    * numpy (operations on arrays)
-    * Flask (creating server API)
+* Used `Python v. 3.7.7` and `pip3 v. 20.1.1`
+* `Tensorflow v. 2.1.1`. Install via `pip3 install tensorflow`. Needed for running pre-trained models.
+* Additional libraries needed to run the server (all can be installed by `pip3 install NAME_OF_LIBRARY`)
+    * `tensorflow` (training models and running pre-trained models)
+    * `opencv-python` (computer vision for detecting faces)
+    * `numpy` (operations on arrays essential for ML)
+    * `Flask` (creating server API)
 
 #### Research and functionality
 
