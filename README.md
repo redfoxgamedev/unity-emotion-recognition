@@ -6,7 +6,7 @@ This is by no means the final state of the project, rather a prototype showcasin
 
 ## Functionality overview
 
-Unity captures the information from the web camera, sends the information to the local Python server operating on Flask, which processes the image and predicts and emotion and then sends the prediction back to Unity with Unity playing corresponding Particle Effect according to emotion received.
+Unity captures the information from the web camera, sends the information to the local Python server operating on Flask, which processes the image and predicts the emotion and then sends the prediction back to Unity with Unity playing corresponding Particle Effect according to emotion received.
 Python does all the “AI” work in this case with Unity just supplying the webcam data. In the current setup, since both run on the local machine, Python could in fact tackle even the web camera feed, letting Unity just display graphics.
 
 ## Issues
@@ -32,9 +32,9 @@ There are performance hiccups within Unity, related to the transformation of the
 
 #### Research and functionality
 
-Python part was constructed by following certain parts of this [tutorial](https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de) and their corresponding [repository] (https://github.com/priya-dwivedi/face_and_emotion_detection). The most useful step-by-step code elaboration of their implementation along with other useful things is contained [here] (https://github.com/priya-dwivedi/face_and_emotion_detection/blob/master/src/EmotionDetector_v2.ipynb)
+Python part was constructed by following certain parts of this [tutorial](https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de) and their corresponding [repository](https://github.com/priya-dwivedi/face_and_emotion_detection). The most useful step-by-step code elaboration of their implementation along with other useful things is contained [here](https://github.com/priya-dwivedi/face_and_emotion_detection/blob/master/src/EmotionDetector_v2.ipynb)
 
-The model the tutorial provided did not work well for me. I searched the net and found a better one, linked on this [GitHub by atulapra] (https://github.com/atulapra/Emotion-detection). The direct link to download the model is [here](https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing). I included it here along with Python source code.
+The model the tutorial provided did not work well for me. I searched the net and found a better one, linked on this [GitHub by atulapra](https://github.com/atulapra/Emotion-detection). The direct link to download the model is [here](https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing). I included it here along with Python source code.
 
 #### Running
 
