@@ -32,9 +32,9 @@ There are performance hiccups within Unity, related to the transformation of the
 
 #### Research and functionality
 
-Python part was constructed by following certain parts of this tutorial: https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de and their corresponding repository https://github.com/priya-dwivedi/face_and_emotion_detection. The most useful step-by-step code elaboration is contained here: https://github.com/priya-dwivedi/face_and_emotion_detection/blob/master/src/EmotionDetector_v2.ipynb
+Python part was constructed by following certain parts of this [tutorial](https://towardsdatascience.com/face-detection-recognition-and-emotion-detection-in-8-lines-of-code-b2ce32d4d5de) and their corresponding [repository] (https://github.com/priya-dwivedi/face_and_emotion_detection). The most useful step-by-step code elaboration of their implementation along with other useful things is contained [here] (https://github.com/priya-dwivedi/face_and_emotion_detection/blob/master/src/EmotionDetector_v2.ipynb)
 
-The model the tutorial provided did not work well for me. I searched the net and found a better one, linked on this GitHub: https://github.com/atulapra/Emotion-detection. The direct link to download the model is here(https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing). I included it here along with Python source code.
+The model the tutorial provided did not work well for me. I searched the net and found a better one, linked on this [GitHub by atulapra] (https://github.com/atulapra/Emotion-detection). The direct link to download the model is [here](https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing). I included it here along with Python source code.
 
 #### Running
 
